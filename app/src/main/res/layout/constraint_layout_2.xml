@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@color/cardview_dark_background"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Button 1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/image_view"
+        app:layout_constraintStart_toStartOf="@id/image_view"
+        app:layout_constraintTop_toBottomOf="@id/image_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Creating a note is a common action for note-taking apps. Create an intent filter to advertise your app's ability
+  to perform this action using the information in the following section."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/button_button"
+        app:layout_constraintStart_toStartOf="@id/button_button"
+        app:layout_constraintTop_toBottomOf="@id/button_button"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

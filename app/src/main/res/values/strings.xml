@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecordKeeper</string>
+    <string name="running">Running</string>
+    <string name="cycling">Cycling</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="running_text">Running</string>
+</resources>
