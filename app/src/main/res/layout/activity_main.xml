@@ -17,12 +17,11 @@
         app:titleTextColor="?attr/colorOnPrimary"
         app:subtitleTextColor="?attr/colorOnPrimary"
         app:navigationIcon="@drawable/outline_arrow_back"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
         app:navigationIconTint="?attr/colorOnPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"/>
 
 
     <androidx.fragment.app.FragmentContainerView
